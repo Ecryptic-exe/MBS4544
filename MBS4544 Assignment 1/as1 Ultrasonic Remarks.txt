@@ -4,12 +4,11 @@ GND GND
 VCC 3v3
 
 Pros:
-Accurate distance result when detecting solid items
-
+Accurate distance measurement when detecting solid items
+Non-Contact Measurement
+Fast Response Time
 
 Cons:
-Distance at approx 8 and approx 22 is the result when detecting a transparent object (e.g. plastic bags, water bottles) which is not accurate
-(Shown in picture)
-
+Distance at approx 8 and approx 22 is the result when detecting a transparent object (e.g. plastic bags, water bottles) which is not accurate (Shown in picture)
 Can't detect object that is too close to it
-Easy to get interfered by the environment
+Easy to get interfered by the environment and other ultrasonic sources
