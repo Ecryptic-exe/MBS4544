@@ -3,7 +3,7 @@ int readPin = 25;
 float scale = 0.0f;
 float minimum = 15.0f;
 float maximum = 60.0f;
-float adc_max = 4096.0f;
+float adc_max = 4095.0f;
 double distance = 0;
 
 void setup () {
@@ -16,9 +16,16 @@ void loop () {
     scale = (float)(((maximum - minimum) / adc_max));
     distance = (float) scale * x + minimum;
 
-    Serial.print(F("Distance: "));
+Serial.print(F("Analog Distance: "));
+  if (distance <= minimum){
+    Serial.print("<=");
+  }
+ else if(distance >= maximum){
+    Serial.print(">=");
+ }
     Serial.print(distance);
-    Serial.println(F("cm"));
+
+  Serial.println(F("cm"));
     // Serial.println(x);
     delay(1000);
 }
