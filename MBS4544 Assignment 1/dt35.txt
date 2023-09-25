@@ -1,0 +1,14 @@
+https://www.sick.com/hk/zf/distance-sensors/mid-range-distance-sensors/dx50/dt50-p1113/p/p215264
+https://www.sick.com/hk/zf/distance-sensors/mid-range-distance-sensors/dx35/dt35-b15251/p/p295353
+tof shoot & reflect
+
+精度	± 10 mm 4)
+
+Interface: IO link
+Analog output
+current (mA) & voltage (use voltage mode): distance range
+
+
+量測範圍	
+50 mm ... 12,000 mm, 90%反光率 1) 2)
+measure distance
